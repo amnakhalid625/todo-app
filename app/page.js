@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [task, setTask] = useState("");
   const [desc, setDesc] = useState("");
   const [main, setMain] = useState([]);
@@ -96,4 +96,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
